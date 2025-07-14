@@ -132,6 +132,7 @@ const prerequisites = {
   'bioetica': ['cuidados_salud_mental', 'cuidados_persona_mayor'],
   'gestion_calidad': ['epidemiologia', 'informatica2'],
   'informatica2': ['informatica1'],
+  'ingles3' : ['ingles2'],
   'evidencia': ['epidemiologia', 'imcualitativa'],
   'salud_fam2': ['paliativos', 'salud_fam1', 'cuidados_nino'],
   'internado1': ['bioetica', 'gestion_calidad', 'urgencia', 'salud_fam2', 'evidencia'],
