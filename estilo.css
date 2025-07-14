@@ -1,1 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6f2; /* light pink background */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
 
+h1 {
+  text-align: center;
+  color: #b3005f; /* dark pink */
+}
+
+.semestre {
+  margin-bottom: 20px;
+}
+
+.semestre h2 {
+  background-color: #ffb3d9;
+  padding: 10px;
+  border-radius: 5px;
+  color: #b3005f;
+}
+
+.cursos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.curso {
+  border: 2px solid #b3005f;
+  background-color: #ffd6eb;
+  padding: 10px;
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+  opacity: 1;
+  transition: background-color 0.3s, opacity 0.3s;
+}
+
+.curso.locked {
+  background-color: #f2f2f2;
+  color: #999;
+  cursor: default;
+  opacity: 0.5;
+}
+
+.curso.completed {
+  background-color: #ff66b3;
+  color: white;
+}
